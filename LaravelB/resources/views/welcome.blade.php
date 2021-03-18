@@ -94,6 +94,11 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <div class="col-md-8 offset-md-4">
+                    <a href="{{ url('/api/auth/redirect/facebook') }}" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</a>
+                </div>
+                <div>
+                </div>
             </div>
         </div>
     </body>

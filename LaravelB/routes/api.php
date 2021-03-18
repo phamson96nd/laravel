@@ -20,3 +20,5 @@ Route::group(['middleware' => 'api', 'prefix' => 'auth'], function ($router) {
     Route::get('me', 'User\AuthController@me');
 
 });
+
+Route::post('/login/{provider}', 'SocialController@checkUser');
